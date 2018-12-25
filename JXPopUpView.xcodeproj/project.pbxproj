@@ -15,6 +15,7 @@
 		074FAFFF21D2662B004C643B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074FAFFE21D2662B004C643B /* main.m */; };
 		074FB00921D2662B004C643B /* JXPopUpViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074FB00821D2662B004C643B /* JXPopUpViewTests.m */; };
 		074FB01421D2662B004C643B /* JXPopUpViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074FB01321D2662B004C643B /* JXPopUpViewUITests.m */; };
+		074FB02421D266C9004C643B /* JXPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 074FB02321D266C9004C643B /* JXPopUpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		074FB00F21D2662B004C643B /* JXPopUpViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXPopUpViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		074FB01321D2662B004C643B /* JXPopUpViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXPopUpViewUITests.m; sourceTree = "<group>"; };
 		074FB01521D2662B004C643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074FB02221D266C9004C643B /* JXPopUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXPopUpView.h; sourceTree = "<group>"; };
+		074FB02321D266C9004C643B /* JXPopUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXPopUpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		074FAFEE21D26629004C643B /* JXPopUpView */ = {
 			isa = PBXGroup;
 			children = (
+				074FB02121D266AE004C643B /* JXPopUpView */,
 				074FAFEF21D26629004C643B /* AppDelegate.h */,
 				074FAFF021D26629004C643B /* AppDelegate.m */,
 				074FAFF221D26629004C643B /* ViewController.h */,
@@ -130,6 +134,15 @@
 				074FB01521D2662B004C643B /* Info.plist */,
 			);
 			path = JXPopUpViewUITests;
+			sourceTree = "<group>";
+		};
+		074FB02121D266AE004C643B /* JXPopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				074FB02221D266C9004C643B /* JXPopUpView.h */,
+				074FB02321D266C9004C643B /* JXPopUpView.m */,
+			);
+			path = JXPopUpView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				074FAFF421D26629004C643B /* ViewController.m in Sources */,
+				074FB02421D266C9004C643B /* JXPopUpView.m in Sources */,
 				074FAFFF21D2662B004C643B /* main.m in Sources */,
 				074FAFF121D26629004C643B /* AppDelegate.m in Sources */,
 			);
